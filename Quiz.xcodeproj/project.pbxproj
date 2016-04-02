@@ -12,6 +12,10 @@
 		2F69CFDE1C9D96BF003FB593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F69CFDC1C9D96BF003FB593 /* Main.storyboard */; };
 		2F69CFE01C9D96BF003FB593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F69CFDF1C9D96BF003FB593 /* Assets.xcassets */; };
 		2F69CFE31C9D96BF003FB593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F69CFE11C9D96BF003FB593 /* LaunchScreen.storyboard */; };
+		2F69CFEB1C9D9721003FB593 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69CFEA1C9D9721003FB593 /* QuizModel.swift */; };
+		2F69CFED1C9D9744003FB593 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69CFEC1C9D9744003FB593 /* Question.swift */; };
+		2F69CFEF1C9DBFAB003FB593 /* OLDLocalQuestionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F69CFEE1C9DBFAB003FB593 /* OLDLocalQuestionData.json */; };
+		2F69CFF11C9DEC33003FB593 /* AnswerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69CFF01C9DEC33003FB593 /* AnswerButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2F69CFDF1C9D96BF003FB593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F69CFE21C9D96BF003FB593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F69CFE41C9D96BF003FB593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F69CFEA1C9D9721003FB593 /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		2F69CFEC1C9D9744003FB593 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2F69CFEE1C9DBFAB003FB593 /* OLDLocalQuestionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OLDLocalQuestionData.json; sourceTree = "<group>"; };
+		2F69CFF01C9DEC33003FB593 /* AnswerButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				2F69CFD81C9D96BF003FB593 /* AppDelegate.swift */,
 				2F69CFDA1C9D96BF003FB593 /* ViewController.swift */,
+				2F69CFF01C9DEC33003FB593 /* AnswerButtonView.swift */,
 				2F69CFDC1C9D96BF003FB593 /* Main.storyboard */,
 				2F69CFDF1C9D96BF003FB593 /* Assets.xcassets */,
+				2F69CFEE1C9DBFAB003FB593 /* OLDLocalQuestionData.json */,
 				2F69CFE11C9D96BF003FB593 /* LaunchScreen.storyboard */,
 				2F69CFE41C9D96BF003FB593 /* Info.plist */,
+				2F69CFEA1C9D9721003FB593 /* QuizModel.swift */,
+				2F69CFEC1C9D9744003FB593 /* Question.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 				2F69CFE31C9D96BF003FB593 /* LaunchScreen.storyboard in Resources */,
 				2F69CFE01C9D96BF003FB593 /* Assets.xcassets in Resources */,
 				2F69CFDE1C9D96BF003FB593 /* Main.storyboard in Resources */,
+				2F69CFEF1C9DBFAB003FB593 /* OLDLocalQuestionData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F69CFF11C9DEC33003FB593 /* AnswerButtonView.swift in Sources */,
 				2F69CFDB1C9D96BF003FB593 /* ViewController.swift in Sources */,
+				2F69CFED1C9D9744003FB593 /* Question.swift in Sources */,
+				2F69CFEB1C9D9721003FB593 /* QuizModel.swift in Sources */,
 				2F69CFD91C9D96BF003FB593 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +300,7 @@
 				2F69CFE91C9D96BF003FB593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
